@@ -1,0 +1,24 @@
+{
+        "ec2": {
+            "regions": {
+                "ecc": "http://eucalyptus.ecc.eucalyptus.com:8773/services/Eucalyptus"
+            },
+            "authentication": "sigv2",
+            "protocols": [
+                "http"
+            ],
+            "name": "Elastic Compute Cloud",
+            "api_version": "2010-08-31"
+        },
+        "iam": {
+            "regions": {
+                "ecc": "http://euare.ecc.eucalyptus.com:8773/services/Euare"
+            },
+            "authentication": "sigv4",
+            "protocols": [
+                "http"
+            ],
+            "name": "Identity & Access Management",
+            "api_version": "2010-05-08"
+        }
+}
